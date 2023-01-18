@@ -1,0 +1,50 @@
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h3 {
+  color: green;
+}
+img {
+  position: static;
+}
+form {
+  padding: 10px;
+  font-style: italic;
+  border: solid 2px green;
+  width: 35%;
+}
+#button {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+div.header {
+  position: relative;
+  left: 225px;
+}
+div.thingsilove {
+  position: relative;
+  width: 50%;
+  left: 255px;
+  top: -20px;
+}
+div.container {
+  display: flex;
+}
+.morethings {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+a#home,
+a#about {
+  padding: 1em;
+}
